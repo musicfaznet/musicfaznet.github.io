@@ -1,78 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>MusicFaz.Net! | Inició</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="text-page.css" />
-    <script src="page.js"></script>
-    <style type="text/css" id="stylesheet">
-        body{
-        background-color: #1f1f1f;
-        }
-        h1{
-        color: white;
-        }
-        h1{
-            color: yellow;
-        }
-        .mfzn2{
-            color: whitesmoke;
-        }
-        .mfzn3{
-            color: white
-        }
-        .telegram{
-            color: skyblue;
-        }
-        footer{
-            background: #030097;
-        }
-        strong a{
-            text-transform: unset;
-    text-decoration-color: #1f1f1f;
-    color: skyblue;
+    <link rel="stylesheet" href="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MusicFaz! | Home</title>
+    <style>
+    body {
+    font: 15px/1.5 arial, sans-serif;
+    padding: 0;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(255, 255, 255)
+}
+.contenedor {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background: #000000;
+    color: #1f1f1f;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: grey 2px solid;
+}
+header a {
+    text-transform: unset;
+    text-decoration-color: black;
+    color: white;
     font-size: 16px;
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0% 20px 0% 20px;
+}
+header #marca {
+    float: left;
+}
+header nav {
+    float: right;
+}
+img {
+    max-width: 252px;
+    margin: 5px;
+}
 
-        }
-        h3 a{
-            color: blue;
-            text-transform: unset;
-            text-decoration-color: #1f1f1f;
-        }
-        </style><script type="text/javascript" id="stylesheet">alert("En mantenimiento, vuelve más tarde! 05.10.2020")</script>
-        
+    </style>
 </head>
 <body>
     <header>
     <div class="contenedor">
-        <div id="marca">
-            <span class="rojo"><img class="logotype" srcset="MUSIC_FAZ-NET_LOGO2018.jpg" alt="logotype" logotype></span>
-            <h1>MusicFaz.Net!</h1>
-        </header>
-        <section id="boxes">
-            <div class="box">
-                <div class="mfzn3">
-                    <h1 class="center">¡Bienvenido!</h1>
-                    El sevidor esta en mantenimiento, vuelva más tarde!.
-                    <br>
-                    Sigue nuestro <strong class="telegram"> Telegram:</strong> <strong class="a"><a href="https://t.me/channel_music_fazz">Click Aqui!!</a></strong>
-                    <br>
-                    <br>
-                    <h3 class="mfz3"> Siguenos en <strong><a href="https://www.facebook.com/MusicaalFazz">facebook</strong> </a></h3>
-                    <h3 class="mfzn-inst">Siguenos en <a class="mfzn-inst" href="https://www.instagram.com/Musicaal-fazzz">Instagram</a></strong></h3>
-                    <br>
-                    <br>
-                    </div>
-                </section>
-                <footer>
-                        <div id="footer">
-                      <div class="mfzn2">
-                          <p>&copy; Copyright MusicFaz.Net!, All right reserved.</p>
-                      </div>
-                        <br>
-                    </footer>
+            <div id="marca">
+                <img src="https://scontent.faqb1-1.fna.fbcdn.net/v/t1.0-9/55869187_367068160685787_2204486191959506944_o.jpg?_nc_cat=104&ccb=2&_nc_sid=09cbfe&_nc_ohc=4tNd3uKBeTwAX_-fsQZ&_nc_ht=scontent.faqb1-1.fna&oh=ca97580f9659ab764da755124e0995d6&oe=5FFF33FD" alt="srcset">
+                <h1>MusicFaz</h1>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="artistas.html">Artist</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="labels.html">Labels</a></li>
+                <li><a href="contact.html">Contact</a>
+                <li><a href="jobs.html">Jobs</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+        <form class="srch-frm-nuevo" name="form" action="" method="get"><input id="bus" name="s" type="search" placeholder="Buscar" autocomplete="off" spellcheck="false" value=""><button class="srch-frm__submit" type="submit"><img class="srch-frm__icon icon-search"></button></form>
 
+        </div>
+    </header>
+    <section id="boxes">
+        <div class="box">
+            <h2>Novedades:</h2>
+            <br>
+            <h5>El Lorem ipsum dolor sit amet consectetur adipisicing elit. In officia quas provident ex assumenda, placeat suscipit iste iusto nemo beatae reiciendis pariatur consequatur, adipisci repudiandae. Maiores odio repellendus laborum impedit?</h5>
+        </div>
+    </section>
 </body>
 </html>
